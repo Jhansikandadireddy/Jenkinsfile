@@ -8,6 +8,7 @@ stage('Build') { steps {
 script {
 // Your build commands here
 //sh 'mvn clean install' // Example for Maven build
+  //mvn clean 
 echo 'mvn clean'
 } }
 }
